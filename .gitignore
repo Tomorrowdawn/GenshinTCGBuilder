@@ -1,0 +1,5 @@
+.git/
+.virtual_documents/
+.ipynb_checkpoints/
+*.npy
+*.json
