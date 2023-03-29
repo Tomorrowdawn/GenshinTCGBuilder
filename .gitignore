@@ -3,3 +3,8 @@
 .ipynb_checkpoints/
 *.npy
 *.json
+*.png
+__pycache__/
+!.gitignore
+!char_eles.json
+!deck_scan.json
