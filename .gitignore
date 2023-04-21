@@ -4,7 +4,12 @@
 *.npy
 *.json
 *.png
+build/
+dist/
+Main.spec
 __pycache__/
+
+!scanner/
 !.gitignore
-!char_eles.json
-!deck_scan.json
+!data/char_eles.json
+!data/deck_scan.json
