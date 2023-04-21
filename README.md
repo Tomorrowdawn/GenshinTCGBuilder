@@ -11,9 +11,7 @@ pip install jupyter
 jupyter notebook
 ```
 
-`Trainer`是主要的类, 每个`Trainer`绑定一个数据集. 如果你不是很关心数据集bias之类的细节, 直接调用默认的即可.
-
-先要调用`T.load()`加载已经预先处理好的数据集. 之后调用`T.train()`对数据集进行加工. 之后, 一切准备就绪.
+使用`Trainer.train()`计算必要的矩阵，之后准备就绪。
 
 使用`Trainer.predict(name, paras)`即可获得某个角色的最佳配队. 推荐的`paras`是`cb`和`GROUP_SIZE`. `cb`是一个算法权重, 介于`-1`到`+infty`之间. 我们的推荐取值是`-0.1~0.1`. `GROUP_SIZE`是遗传算法的种群大小, 不应低于`2000`.
 
