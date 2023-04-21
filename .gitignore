@@ -9,7 +9,7 @@ dist/
 Main.spec
 __pycache__/
 
-!scanner/
+!scanner/*
 !.gitignore
 !data/char_eles.json
 !data/deck_scan.json
