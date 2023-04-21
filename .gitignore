@@ -11,5 +11,4 @@ __pycache__/
 
 !scanner/*
 !.gitignore
-!data/char_eles.json
-!data/deck_scan.json
+!data/*.json
