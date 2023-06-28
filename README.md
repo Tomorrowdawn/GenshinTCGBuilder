@@ -1,6 +1,11 @@
 # GenshinTCGBuilder
 Genshin, Genius Invokation TCG builder. TCG卡组配卡器,使用遗传算法.
 
+## 依赖
+
+geatpy
+numpy
+
 ## 使用
 
 我们推荐使用jupyter notebook(或者jupyter lab)运行本项目,可以获得最好的体验.
